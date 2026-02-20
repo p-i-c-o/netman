@@ -1,0 +1,32 @@
+#compdef netman
+
+_netman() {
+  local -a cmds profiles
+  cmds=(set list edit create rollback --test --json --help -h)
+  profiles=(${(f)"$(netman list 2>/dev/null)"})
+
+  if (( CURRENT == 2 )); then
+    _describe 'commands and profiles' cmds
+    _describe 'profiles' profiles
+    return
+  fi
+
+  case "$words[2]" in
+    set)
+      _describe 'profiles' profiles
+      ;;
+    edit)
+      _describe 'profiles' profiles
+      ;;
+    create)
+      _arguments \
+        '--dns[DNS server]:dns server:' \
+        '--subnet[subnet CIDR]:subnet:'
+      ;;
+    *)
+      _describe 'commands' cmds
+      ;;
+  esac
+}
+
+_netman "$@"
