@@ -6,7 +6,7 @@
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/Status-In%20Progress-blue">
   <img alt="Category" src="https://img.shields.io/badge/Category-Software-0366d6">
-  <img alt="Version" src="https://img.shields.io/badge/Version-V1-orange">
+  <img alt="Version" src="https://img.shields.io/badge/Version-0.1.0-orange">
   <img alt="Updated" src="https://img.shields.io/badge/Updated-2026--02--20-brightgreen">
 </p>
 
