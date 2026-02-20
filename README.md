@@ -23,7 +23,7 @@
 - JSON output for scripting or wrappers
 
 ## Quick Start
-1. Download the latest release
+1. Download the [latest](https://github.com/p-i-c-o/netman/releases/tag/latest) release
 2. Install the script using:
 ```bash
 sudo ./install.sh --user "$(logname)"
