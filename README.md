@@ -91,4 +91,4 @@ netman rollback
 - [ ] More beautiful UI
 
 ## License
-[MIT / CERN-OHL / CC BY-SA / Unlicensed / etc.]
+MIT
